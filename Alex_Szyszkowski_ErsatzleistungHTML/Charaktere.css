@@ -1,0 +1,58 @@
+*{
+    margin: none;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background-color: #123F3A;;
+}
+.picture{
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.items{
+    background-color:whitesmoke;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+h3{
+    font-size: 40px;
+    color: #ff8800;;
+}
+h4{
+    font-size: 20px;
+    color: #ff8800;;
+}
+p{
+    font-size: 24px;
+    line-height: 30px;
+}
+.interact{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 23px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.interact:hover {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    transition: 1s;
+}
